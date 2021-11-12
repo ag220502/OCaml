@@ -11,4 +11,3 @@ let nameptr : string = "My name is "^name;;
 let ageptr : string = "My age is "^ string_of_int age;;
 nameptr;;
 ageptr;;
-(* My name is *name* *)
