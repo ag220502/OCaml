@@ -1,4 +1,4 @@
-(* Creating user defined functions *)
+(* Function to create size of string *)
 (* ============================================================ *)
 
 (* Function for calculating the size of the string *)
@@ -12,12 +12,11 @@ let size (str : string) : int =
 (* Calling the size function by passing string in it. *)
 size "Akshay";;
 
-
 (* Creating function with two parameters for concatinating string and returning it *)
-
 let printString1 (front: string)(s:string) : string = 
     front ^ s;;
 
+(* Creating function to use the functions declared above *)
 let printSize (str1 : string)(str2 : string) : int = 
     let print  = printString1 str1 str2 in size print;;
 
