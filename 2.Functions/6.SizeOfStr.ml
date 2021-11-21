@@ -1,4 +1,4 @@
-(* Function to create size of string *)
+(* Program to create function for returning size of string after concatenating the two strings *)
 (* ============================================================ *)
 
 (* Function for calculating the size of the string *)
