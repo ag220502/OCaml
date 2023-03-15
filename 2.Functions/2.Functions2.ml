@@ -2,7 +2,7 @@
 (* ============================================================ *)
 
 (* -------------- Function with parameters -------------------- *)
-(* For functuons with parameters we have to pass the argument and its type with it.
+(* For functions with parameters we have to pass the argument and its type with it.
 So, here s is the name of the parameter and srting is the data type for s.
 After that we will pass the return type of the funtion after typing colon. *)
 let printString (s:string) : string = 
